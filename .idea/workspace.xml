@@ -294,20 +294,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sub_group_learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sub_group_learn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1052,12 +1038,20 @@
       <workItem from="1560609443129" duration="2873000" />
       <workItem from="1560647085801" duration="10298000" />
       <workItem from="1560780836878" duration="7802000" />
-      <workItem from="1561886207164" duration="166000" />
+      <workItem from="1561886207164" duration="205000" />
     </task>
+    <task id="LOCAL-00001" summary="delete file">
+      <created>1561886385946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561886385946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26543000" />
+    <option name="totallyTimeSpent" value="26582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="754" extended-state="0" />
@@ -1100,6 +1094,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete file" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
