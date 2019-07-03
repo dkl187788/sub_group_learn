@@ -14,7 +14,6 @@
         <slf4j.version>1.7.25</slf4j.version>
         <fastjson.version>1.2.47</fastjson.version>
         <jackjson.version>2.8.8</jackjson.version>
-
     </properties>
 
     <dependencies>
@@ -31,6 +30,22 @@
         </dependency>
 
         <dependency>
+            <groupId>com.goldeneggs</groupId>
+            <artifactId>golden-eggs-common</artifactId>
+            <version>1.3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>com.goldeneggs</groupId>
+            <artifactId>golden-eggs-core</artifactId>
+            <version>1.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+
+       <!-- <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>${httpclient.version}</version>
@@ -46,7 +61,7 @@
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpmime</artifactId>
             <version>${httpclient.version}</version>
-        </dependency>
+        </dependency>-->
 
         <!-- slf4j -->
         <dependency>
@@ -83,6 +98,61 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackjson.version}</version>
         </dependency>
+        <!-- 日志组件 Begin -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>2.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>3.1</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-codec</groupId>
+                    <artifactId>commons-codec</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>commons-configuration</groupId>
+            <artifactId>commons-configuration</artifactId>
+            <version>1.10</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-logging</groupId>
+                    <artifactId>commons-logging</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.5</version>
+            <optional>true</optional>
+        </dependency>
+
     </dependencies>
 
     <build>
