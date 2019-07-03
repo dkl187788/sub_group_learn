@@ -33,7 +33,7 @@ public class ClientRequestThread implements Runnable {
     @Override
     public void run() {
         try {
-            Thread.sleep(5000);
+            Thread.sleep(1000);
             System.out.println(threadName + "准备好等待其它线程");
             cyclicBarrier.await();
         } catch (Exception e) {
