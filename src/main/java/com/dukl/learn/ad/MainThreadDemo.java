@@ -9,7 +9,7 @@ import java.util.concurrent.CyclicBarrier;
  * Created by dukangli on 2019/7/3 18:10
  */
 public class MainThreadDemo {
-    private final static int THREAD_COUNT = 20;
+    private final static int THREAD_COUNT = 200;
     private static RpcTransferService rpcTransferService = new RpcTransferServiceImpl();
     private static CyclicBarrier cyclicBarrier = new CyclicBarrier(THREAD_COUNT);
     public static void main(String[] args) {
