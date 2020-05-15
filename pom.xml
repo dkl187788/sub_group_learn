@@ -13,7 +13,7 @@
         <httpclient.version>4.5.5</httpclient.version>
         <slf4j.version>1.7.25</slf4j.version>
         <fastjson.version>1.2.47</fastjson.version>
-        <jackjson.version>2.8.8</jackjson.version>
+        <jackjson.version>2.11.0</jackjson.version>
     </properties>
 
     <dependencies>
